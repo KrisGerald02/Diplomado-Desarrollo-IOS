@@ -1,5 +1,6 @@
 //Ejercicio 5: Clases, Structs y Polimorfismo
 // Protocolo Empleado
+import Foundation
 protocol Empleado {
     func calcularSalario() -> Double
 }
