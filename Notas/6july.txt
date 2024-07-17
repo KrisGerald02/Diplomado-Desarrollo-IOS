@@ -1,0 +1,18 @@
+programacion orientada a objetos
+programacion orientada a protocolo
+
+heap y el stack, delegacion (patron de diseno), polimorfismo investigar
+dif entre clases y structs
+
+Swift Playground = compilador en linea
+
+
+enum: conjunto de valores relacionados
+semantica de valor parecido a struct
+
+
+COMAND + OPTION + E= SELECCIONAR LA MISMA PALABRA
+collection view
+investigar singletown (patron de diseno)
+Delegado 
+crea interfaces y el rest io atraves de protocolo
