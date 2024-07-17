@@ -1,5 +1,6 @@
 //Ejercicio 4: Enums y Funciones Estáticas
 // Enumeración OperacionMatematica
+import Foundation
 enum OperacionMatematica {
     case suma
     case resta
