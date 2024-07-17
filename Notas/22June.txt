@@ -1,0 +1,91 @@
+Version XCode 15.4
+Revisar Referencias de Presentacion 1
+ Framework> encima de algo que existe, herramientas, codigo abierto para versiones y funciones , la implementacion no se ve
+UI Kit Privado
+ajustes pantalla zoom
+XCode + Extension
+Storyboard correspopnde al framework de vistas de UIKit
+icono asistant para mitad vista y mitad cod
+icono 2 cuadritos ultimas 2 opciones clic para centrar = constrains
+main + botones
+vista.xib
+codigo.swift
+
+clic derecho para asociar boton con cod
+new referencing outlet lo arrastro al cod y se le anade un nombre
+
+un evento se asocia al boton y 
+
+touch up inside tipo didap
+
+estudiar diccionarios tuplas
+
+
+es algo que ocurre en dependecia del usuario
+ios,app.storyboard,com.demo.app <organization,crear carpeta,
+
+
+sentecias
+//Cambiar el color del rotulo del boton
+nombre del boton. backgroundColor=.red
+icono inferior 4 opcion clean constrains
+label  icono 3 add new constrains arriba 293 izq 173 der 178 abajo 356.67
+width 75
+alto 35
+config button es alreves
+//constrain en azul signiifca todo bn posicionado
+archivo nuevo playground blank
+
+swift pathways
+the basics
+
+constantes son let
+var variabe
+
+reglas inicio min + mayus
+
+; es para mas de una instruccion en una sola linea de codigo
+
+min max value
+
+=== compara objetos (referencias) en memoria
+
+tipo data es para guardar imagenes
+
+// comentario
+/// documentacion 
+
+nulo aqui es nil
+
+tarea
+investigar sobre cclo de vida de un view controller
+OUTLET, CONSTRAINS Y IBAction
+constrains son las restricciones del elemento
+jumpdesktop
+Variables opcionales
+repasar conceptos basicos progrmacion orientda a objtos
+terminos class public herencia
+dif referencia y valor
+protocolos investigar
+
+online swift playground //compilador en linea
+
+
+codigo
+
+import UIKit
+
+var greeting = "Hello, playground"
+//var number: Int = .zero
+//var number = 0
+var numero: Double =0
+var numeroCustom= MiNumero()
+
+var numero: Double? = nil
+
+
+print("ooli")
+///Testing doc
+final class miNumero{
+    
+}
