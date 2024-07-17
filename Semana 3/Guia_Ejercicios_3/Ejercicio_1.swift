@@ -41,7 +41,7 @@ class GestorPedido: NotificacionPedido {
     }
 }
 
-// Ejemplo de uso:
+// Ejecucion
 
 // Crear una instancia de GestorPedido
 let gestor = GestorPedido()
