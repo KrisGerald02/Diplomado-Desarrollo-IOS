@@ -16,3 +16,330 @@ collection view
 investigar singletown (patron de diseno)
 Delegado 
 crea interfaces y el rest io atraves de protocolo
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Imprime el arreglo en reversa
+import Foundation
+
+enum DiasDeLaSemana: Int, CaseIterable {
+    //Posicion 0 1 2 3 4 5 6
+    // Los enum tienen rawvalue cuenando tienen un tipo asociado
+    //allCases es para seleccionar tods los elementos de la estructura
+    case lunes = 1
+    case martes = 2
+    case miercoles = 3
+    case jueves = 4
+    case viernes = 5
+    case sabado = 6
+    case domingo = 7
+}
+
+//print(diaDeLaSemana.rawValue)
+//print(diaDeLaSemana.allCases)
+
+//dia contador
+for dia in DiasDeLaSemana.allCases.reversed(){
+print(dia.rawValue)
+}
+
+//imprime en Descendente
+import Foundation
+
+enum DiasDeLaSemana: Int, CaseIterable {
+    //Posicion 0 1 2 3 4 5 6
+    // Los enum tienen rawvalue cuenando tienen un tipo asociado
+    //allCases es para seleccionar tods los elementos de la estructura
+    case lunes = 1
+    case martes = 2
+    case miercoles = 3
+    case jueves = 4
+    case viernes = 5
+    case sabado = 6
+    case domingo = 7
+}
+
+//print(diaDeLaSemana.rawValue)
+//print(diaDeLaSemana.allCases)
+
+//dia contador
+for dia in DiasDeLaSemana.allCases{
+print(dia.rawValue)
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Imprime las Posiciones 
+import Foundation
+
+enum DiasDeLaSemana: Int, CaseIterable {
+    //Posicion 0 1 2 3 4 5 6
+    // Los enum tienen rawvalue cuenando tienen un tipo asociado
+    //allCases es para seleccionar tods los elementos de la estructura
+    case lunes
+    case martes
+    case miercoles
+    case jueves
+    case viernes
+    case sabado
+    case domingo
+    
+    var nombre: String {
+        switch self{
+        case .lunes:
+            return "Lunes"
+        case .martes:
+            return "Martes"
+        case .miercoles:
+            return "Miercoles"
+        case .jueves:
+            return "Jueves"
+        case .viernes:
+            return "Viernes"
+        case .sabado:
+            return "Sabado"
+        case .domingo:
+            return "Domingo"
+        }
+    }
+    
+    func obtenerPosicion() -> Int {
+        self.rawValue
+    }
+}
+    
+let dia: String = DiasDeLaSemana.lunes.nombre
+//dia contador
+for dia in DiasDeLaSemana.allCases{
+print(dia.obtenerPosicion())
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Conversor
+import Foundation
+
+enum moneda {
+    case euro
+    case yen
+    case libra
+
+    var tasaDeCambio: Double {
+        switch self {
+        case .euro:
+            return 0.05
+        case .yen:
+            return 110.0
+        case .libra:
+            return 0.75
+        }
+    }
+    
+    var simbolo: String {
+        switch self {
+        case .euro:
+            return "€"
+        case .yen:
+            return "¥"
+        case .libra:
+            return "£"
+        }
+    }
+    
+    func convertirDesdeDolares(cantidadEnDolares: Double) -> Double {
+        cantidadEnDolares * self.tasaDeCambio
+    }
+    
+    func cantidadFormateada(cantidad: Double)-> String {
+        "\(self.simbolo)\(cantidad)" //Concatenar = Interpolar
+    }
+}
+
+let cantidadEnDolares = 100.00
+let euro: moneda = .euro
+let cantidadEnEuros = euro.convertirDesdeDolares(cantidadEnDolares: cantidadEnDolares)
+let cantidadFormateada = euro.cantidadFormateada(cantidad: cantidadEnEuros)
+
+print(cantidadEnEuros)
+print(cantidadFormateada)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import Foundation
+enum OperacionMath{
+    case suma
+    case resta
+    case multiplicacion
+    case division
+}
+
+class OperadorMatematico{
+    static func realizarOperacion (a: Double, b: Double, Operacion:OperacionMath)-> Double {
+        switch Operacion {
+        case .suma:
+            return a + b
+        case .resta:
+            return a-b
+        case .multiplicacion:
+            return a*b
+        case .division:
+            if b != 0 {
+                return a/b
+            }else{
+                print("Error; Division por cero")
+                return 0
+            }
+        }
+    }
+}
+
+var resultadoSuma = OperadorMatematico.realizarOperacion(a:10, b:5, Operacion:OperacionMath.suma)
+print("Resultado de la Suma:\(resultadoSuma)")
+
+
+var resultadoResta = OperadorMatematico.realizarOperacion(a:10, b:5, Operacion:OperacionMath.resta)
+print("Resultado de la Resta:\(resultadoResta)")
+
+var resultadoMultiplicacion = OperadorMatematico.realizarOperacion(a:10, b:5, Operacion:OperacionMath.multiplicacion)
+print("Resultado de la Multiplicacion:\(resultadoMultiplicacion)")
+
+
+var resultadoDivision = OperadorMatematico.realizarOperacion(a:10, b:5, Operacion:OperacionMath.division)
+print("Resultado de la Division:\(resultadoDivision)")
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Saber si hay que Instanciar o No Instanciar en class
+import Foundation
+
+class ConvertidorManager{
+    func convertirNoStatic(){
+        
+        
+    }
+    
+    static func convertirStatic(){
+        
+    }
+}
+// Si necesito Instanciar
+let convertir = ConvertidorManager()
+convertir.convertirNoStatic()
+
+//No necesito estanciar
+ConvertidorManager.convertirStatic()
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Saber si hay que Instanciar o No Instanciar en struct
+import Foundation
+
+struct ConvertidorManager{
+    func convertirNoStatic(){
+        
+        
+    }
+    
+    static func convertirStatic(){
+        
+    }
+}
+// Si necesito Instanciar
+let convertir = ConvertidorManager()
+convertir.convertirNoStatic()
+
+//No necesito estanciar
+ConvertidorManager.convertirStatic()
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Saber si hay que Instanciar o No Instanciar en protocolo
+
+import Foundation
+
+protocol StaticRepresentable {
+    static func estatico()
+}
+
+extension StaticRepresentable{
+    static func estatico(){
+        
+    }
+}
+
+struct ConvertidorManager{
+    func convertirNoStatic(){
+        
+        
+    }
+    
+    static func convertirStatic(){
+        
+    }
+}
+// Si necesito Instanciar
+let convertir = ConvertidorManager()
+convertir.convertirNoStatic()
+
+//No necesito estanciar
+ConvertidorManager.convertirStatic()
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Ejemplo Delegacion
+import Foundation
+
+protocol DownloadDelegate{
+    func didStartDownload()
+    func didFinishDownload()
+}
+
+class Downloader {
+    var downloadDelegate: DownloadDelegate?
+    
+    
+    func startDownload(){
+        downloadDelegate?.didStartDownload()
+        //Haces otras cosas
+        //Mostrar loading view
+        //Persistir Datos
+        downloadDelegate?.didFinishDownload()
+    }
+}
+
+/// Hacia arriba es un framework del cual no tengo control ni puedo modificar
+class DownloadManager {
+    
+}
+extension DownloadManager: DownloadDelegate{
+    func didStartDownload() {
+        print("didStartDownload")
+        //Leer algun analytics
+    }
+    func didFinishDownload() {
+        print("Mandarle un mensaje al usuario etc")
+        //Mandarle un mensaje al usuario etc
+    }
+}
+
+let downloadManager = DownloadManager()
+let downloader = Downloader()
+downloader.downloadDelegate = downloadManager
+downloader.startDownload()
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aquí está la parte importante del constructor del juguete:
+
+swift
+Copiar código
+class Pedido {
+    var estado: EstadoPedido
+    
+    // Aquí es donde se construye el juguete
+    init(estado: EstadoPedido) {
+        self.estado = estado
+    }
+}
+class Pedido {: Esto es como decir "Voy a hacer un nuevo tipo de juguete llamado Pedido".
+var estado: EstadoPedido: Cada juguete Pedido tiene una luz de estado (puede ser "procesando", "enviado" o "entregado").
+init(estado: EstadoPedido) { self.estado = estado }: Esta parte es como la fábrica del juguete. Cuando construyes un nuevo Pedido, tienes que decirle de qué color debe ser la luz de estado. La fábrica pone esa luz en el juguete.
+Entonces, cuando quieres hacer un nuevo juguete Pedido y decirle que su estado inicial es "procesando", lo haces así:
+
+swift
+Copiar código
+var pedido = Pedido(estado: .procesando)
+Esto le dice a la fábrica que haga un nuevo Pedido con la luz en "procesando". Así, cuando juegues con tu nuevo Pedido, sabrás que está en el estado "procesando" porque la fábrica ya le puso esa luz desde el principio.
