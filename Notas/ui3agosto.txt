@@ -45,3 +45,11 @@ accional
 Centrar view dentro d viem
 Contrai4 de centrado 
 
+
+
+visual components izq iphone orientation quitamos landscape
+
+
+investigar sobre imagenes
+
+las img png  pueden ser iconos
