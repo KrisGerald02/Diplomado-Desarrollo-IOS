@@ -1,7 +1,7 @@
 primero abrimos app main
 despues corremos el cell
 despues a;adimos un botton un view un label despues otro view y l ponemos color
-referenciamos 
+referenciamos bpotones
 
 
 para poner otro story board es + view controller
@@ -53,3 +53,16 @@ visual components izq iphone orientation quitamos landscape
 investigar sobre imagenes
 
 las img png  pueden ser iconos
+
+
+scroll view
+yutu
+
+view cotroller
+image view ajustes icono 
+image user
+podemis ysar una imagen directamente con un circulo  
+
+
+
+
