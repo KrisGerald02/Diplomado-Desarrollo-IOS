@@ -64,5 +64,15 @@ image user
 podemis ysar una imagen directamente con un circulo  
 
 
+constrain de igualdad
+view 
+una viosta tenga lo mismo con anchio y alto con otra vista
+
+con ahft se selcciona ambas vistas
+
+
+equal weigths and heights en el constrain de camars icono
+
+
 
 
