@@ -42,3 +42,6 @@ vertical stack apilar componentes dentro de el posicion 0
 quiero qye cuando le de clic al cora aumente
 accional
 
+Centrar view dentro d viem
+Contrai4 de centrado 
+
