@@ -61,6 +61,9 @@ yutu
 view cotroller
 image view ajustes icono 
 image user
+
+constrain de alineacion
+
 podemis ysar una imagen directamente con un circulo  
 
 
@@ -74,6 +77,16 @@ con ahft se selcciona ambas vistas
 equal weigths and heights en el constrain de camars icono
 
 
+seleciinamos ambas vistas
+me voy ala izq cmra
+leading dges
+opsea se alineara el 2o abajo izq
+
+
+
+amarillo actualizar
+rojo faltan
+azul etsta bn
 
 
 
