@@ -1,0 +1,44 @@
+primero abrimos app main
+despues corremos el cell
+despues a;adimos un botton un view un label despues otro view y l ponemos color
+referenciamos 
+
+
+para poner otro story board es + view controller
+
+
+clic en botton action show arratramos al otro botton
+
+
+abajo icono 3 constrain de posicion
+
+siempre tener 4 tipos de constrain
+constrain de tama;no ancho y alto
+contrain de posicion
+
+
+
+traingulo abajo clea constraina
+
+
+ibnvestigar views
+
+
+lineanaranja o amarilla  mean act cosntrain
+
+triasngulo update consttrains
+
+notas: ver videos de constrains 
+  invesitgar ccess to add pictures
+
+
+
+stack view horixontal icnonos de informacion
+label es de info
+
+vertical stack apilar componentes dentro de el posicion 0
+
+
+quiero qye cuando le de clic al cora aumente
+accional
+
