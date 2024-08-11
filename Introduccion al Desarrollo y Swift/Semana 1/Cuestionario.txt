@@ -1,0 +1,56 @@
+Cuestionario: Herramientas de Xcode
+
+1. ¿Cuál es el propósito de la barra de navegación superior en Xcode y qué elementos clave incluye?
+
+Proporciona acceso rápido a diversas herramientas y funcionalidades dentro del entorno de desarrollo. Entre los elementos clave que incluye están:
+Botones de Navegación: Permiten moverse entre archivos y vistas de la aplicación.
+Selector de Esquema: Para elegir el esquema de construcción y ejecución del proyecto.
+Botones de Ejecución y Detención: Para iniciar y detener la ejecución de la aplicación.
+Indicadores de Actividad: Muestran el estado de las operaciones en curso, como la compilación y la ejecución.
+
+2. Explica cómo se utiliza el panel de atributos en Xcode para configurar un Label. ¿Qué propiedades puedes ajustar desde este panel?
+
+El panel de atributos en Xcode permite configurar las propiedades de un Label en la interfaz de usuario. Los pasos son: Selecciona el Label en el editor de interfaces y Abre el panel de atributos desde la barra lateral derecha, si no está ya abierto.
+Las propiedades que puedes ajustar incluyen:
+Texto: El contenido del Label.
+Fuente: Tipo, tamaño y estilo de la fuente.
+Color del Texto: El color del texto del Label.
+Alineación: La alineación del texto (izquierda, centro, derecha, justificado).
+Número de Líneas: Establecer si el texto se debe truncar o ajustar en múltiples líneas.
+Truncamiento: Controlar cómo se trunca el texto si es demasiado largo.
+Sombras y Efectos: Añadir sombras y otros efectos visuales al texto.
+
+3. ¿Qué información y opciones puedes encontrar en la pestaña "General" de un proyecto en Xcode?
+
+Se puede encontrar información y opciones relacionadas con la configuración básica del proyecto, como:
+Identidad del Proyecto: Nombre, identificador y versión del proyecto.
+Información de Despliegue: Versión mínima del sistema operativo requerida.
+Iconos y Lanzadores: Configuración de iconos de la aplicación y pantallas de lanzamiento.
+Firmas y Certificaciones: Configuración de firmas de código y perfiles de aprovisionamiento.
+Configuración de Dispositivos: Especificación de los dispositivos soportados.
+
+4. ¿Cuál es la función del "Inspector de Conexiones" en Xcode y cómo se utiliza para gestionar las conexiones entre la interfaz de usuario y el código?
+
+Se utiliza para gestionar las conexiones entre la interfaz de usuario y el código, permitiendo:
+Crear Outlets y Acciones: Arrastrando desde los elementos de la UI hasta el código para crear propiedades y métodos conectados.
+Ver y Gestionar Conexiones Existentes: Mostrar y eliminar conexiones entre elementos de la UI y sus correspondientes outlets y acciones en el código.
+Comprobar Conexiones: Verificar que todas las conexiones necesarias están configuradas correctamente.
+
+5. ¿Qué opciones ofrece el menú para agregar nuevas restricciones de alineación en Xcode y por qué son importantes para el diseño responsivo?
+
+Opciones:
+Alineación Horizontal y Vertical: Alinear elementos a la izquierda, derecha, arriba, abajo o al centro del contenedor o entre sí.
+Espaciado: Definir el espaciado entre elementos.
+Igualar Tamaños: Asegurar que varios elementos tengan el mismo tamaño.
+Estas restricciones son importantes para el diseño porque permiten que la interfaz se adapte correctamente a diferentes tamaños y orientaciones de pantalla, manteniendo una disposición coherente y funcional.
+
+6. Explica el proceso para crear un nuevo outlet desde el editor de interfaces en Xcode. ¿Qué pasos debes seguir?
+
+Abre el archivo de storyboard en el editor de interfaces, Selecciona el elemento de la interfaz de usuario para el que deseas crear un outlet ,Abre el asistente de edición, dividiendo la pantalla entre el storyboard y el archivo de código fuente correspondiente (Controlador de Vista), Mantén presionada la tecla "Control" y arrastra desde el elemento de la UI hasta el área del código fuente en la clase del controlador de vista, Suelta el mouse y aparecerá un cuadro de diálogo para configurar el outlet. Ingresa un nombre descriptivo para el outlet y haz clic en "Conectar".
+
+7. ¿Qué características principales puedes configurar en la pestaña "Signing & Capabilities" de un proyecto en Xcode?
+
+Se puede configurar:
+Firmas de Código: Selección de equipos y perfiles de aprovisionamiento para firmar la aplicación.
+Capacidades: Activar características específicas de iOS como iCloud, Push Notifications, Background Modes, In-App Purchase, entre otras.
+Configuraciones de Entitlements: Añadir y gestionar archivos de permisos (entitlements) para definir capacidades específicas necesarias por la aplicación.
