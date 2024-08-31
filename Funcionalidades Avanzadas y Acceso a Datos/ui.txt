@@ -9,3 +9,5 @@ Mtultiples Columnas
 Para mostar elementos agrupados
 
 Ejemplo: app de foto donde ca/imagen se muestra en una celda, organizada en una cuadricula que el usuario puede desplazar.
+
+el almacenamiento para las aplicaciones se comparte con las otras ejemplo se comparte los recursos entre 15 hermanos
