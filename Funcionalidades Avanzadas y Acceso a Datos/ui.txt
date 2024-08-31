@@ -16,3 +16,9 @@ el almacenamiento para las aplicaciones se comparte con las otras ejemplo se com
 
 Caracterisitcas de cola y pila = reuse queue
 
+
+
+en la parte de optimizar etc ui
+en la cola  aparitr de ahi se crea el objeto
+
+
