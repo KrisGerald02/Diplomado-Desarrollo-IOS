@@ -1,1 +1,11 @@
+TableView
+Multiples Filas
 
+
+
+UICollectionView
+Celda (principal)
+Mtultiples Columnas
+Para mostar elementos agrupados
+
+Ejemplo: app de foto donde ca/imagen se muestra en una celda, organizada en una cuadricula que el usuario puede desplazar.
