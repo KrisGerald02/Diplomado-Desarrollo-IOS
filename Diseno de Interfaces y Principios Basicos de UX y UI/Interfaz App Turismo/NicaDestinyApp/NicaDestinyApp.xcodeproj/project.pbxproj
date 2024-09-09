@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6343E4C72C8EA85C002DC933 /* FirstViewSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6343E4C62C8EA85C002DC933 /* FirstViewSettings.xib */; };
+		6343E4C82C8EA85C002DC933 /* FirstViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343E4C52C8EA85C002DC933 /* FirstViewSettings.swift */; };
+		6343E4CB2C8EAA98002DC933 /* SecondViewSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6343E4CA2C8EAA98002DC933 /* SecondViewSettings.xib */; };
+		6343E4CC2C8EAA98002DC933 /* SecondViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343E4C92C8EAA98002DC933 /* SecondViewSettings.swift */; };
+		6343E4CF2C8EAAE2002DC933 /* ThreeViewSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6343E4CE2C8EAAE2002DC933 /* ThreeViewSettings.xib */; };
+		6343E4D02C8EAAE2002DC933 /* ThreeViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343E4CD2C8EAAE2002DC933 /* ThreeViewSettings.swift */; };
+		63441D442C8EB2A800D52A9B /* PuertoSalvadorAllendeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63441D422C8EB2A800D52A9B /* PuertoSalvadorAllendeView.swift */; };
+		63441D452C8EB2A800D52A9B /* PuertoSalvadorAllendeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63441D432C8EB2A800D52A9B /* PuertoSalvadorAllendeView.xib */; };
+		63441D482C8EB2B800D52A9B /* IslaAmorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63441D462C8EB2B800D52A9B /* IslaAmorView.swift */; };
+		63441D492C8EB2B800D52A9B /* IslaAmorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63441D472C8EB2B800D52A9B /* IslaAmorView.xib */; };
+		63486EBD2C8D6E62004E103E /* NicaDestinyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63486EBC2C8D6E62004E103E /* NicaDestinyAppApp.swift */; };
+		63486EBF2C8D6E62004E103E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63486EBE2C8D6E62004E103E /* ContentView.swift */; };
+		63486EC12C8D6E63004E103E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63486EC02C8D6E63004E103E /* Assets.xcassets */; };
+		63486EC42C8D6E63004E103E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63486EC32C8D6E63004E103E /* Preview Assets.xcassets */; };
+		63486ECB2C8D6F22004E103E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63486ECA2C8D6F22004E103E /* Launch Screen.storyboard */; };
+		63B5B09F2C8E7282001BD1B1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B5B09E2C8E7282001BD1B1 /* MainViewController.xib */; };
+		63B5B0A02C8E7282001BD1B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5B09D2C8E7282001BD1B1 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6343E4C52C8EA85C002DC933 /* FirstViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewSettings.swift; sourceTree = "<group>"; };
+		6343E4C62C8EA85C002DC933 /* FirstViewSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewSettings.xib; sourceTree = "<group>"; };
+		6343E4C92C8EAA98002DC933 /* SecondViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewSettings.swift; sourceTree = "<group>"; };
+		6343E4CA2C8EAA98002DC933 /* SecondViewSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewSettings.xib; sourceTree = "<group>"; };
+		6343E4CD2C8EAAE2002DC933 /* ThreeViewSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewSettings.swift; sourceTree = "<group>"; };
+		6343E4CE2C8EAAE2002DC933 /* ThreeViewSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeViewSettings.xib; sourceTree = "<group>"; };
+		63441D422C8EB2A800D52A9B /* PuertoSalvadorAllendeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuertoSalvadorAllendeView.swift; sourceTree = "<group>"; };
+		63441D432C8EB2A800D52A9B /* PuertoSalvadorAllendeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PuertoSalvadorAllendeView.xib; sourceTree = "<group>"; };
+		63441D462C8EB2B800D52A9B /* IslaAmorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslaAmorView.swift; sourceTree = "<group>"; };
+		63441D472C8EB2B800D52A9B /* IslaAmorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IslaAmorView.xib; sourceTree = "<group>"; };
+		63486EB92C8D6E62004E103E /* NicaDestinyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NicaDestinyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63486EBC2C8D6E62004E103E /* NicaDestinyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicaDestinyAppApp.swift; sourceTree = "<group>"; };
+		63486EBE2C8D6E62004E103E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63486EC02C8D6E63004E103E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63486EC32C8D6E63004E103E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63486ECA2C8D6F22004E103E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		63B5B09D2C8E7282001BD1B1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63B5B09E2C8E7282001BD1B1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63486EB62C8D6E62004E103E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63441D412C8EB26400D52A9B /* Views Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Views Vehicle";
+			sourceTree = "<group>";
+		};
+		63486EB02C8D6E62004E103E = {
+			isa = PBXGroup;
+			children = (
+				63486EBB2C8D6E62004E103E /* NicaDestinyApp */,
+				63486EBA2C8D6E62004E103E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63486EBA2C8D6E62004E103E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63486EB92C8D6E62004E103E /* NicaDestinyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63486EBB2C8D6E62004E103E /* NicaDestinyApp */ = {
+			isa = PBXGroup;
+			children = (
+				63441D412C8EB26400D52A9B /* Views Vehicle */,
+				63486EC02C8D6E63004E103E /* Assets.xcassets */,
+				63486ECD2C8D7076004E103E /* Views */,
+				63486ECC2C8D7068004E103E /* Launcher */,
+				63486EC22C8D6E63004E103E /* Preview Content */,
+			);
+			path = NicaDestinyApp;
+			sourceTree = "<group>";
+		};
+		63486EC22C8D6E63004E103E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63486EC32C8D6E63004E103E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63486ECC2C8D7068004E103E /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				63486ECA2C8D6F22004E103E /* Launch Screen.storyboard */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		63486ECD2C8D7076004E103E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63486EBC2C8D6E62004E103E /* NicaDestinyAppApp.swift */,
+				63486EBE2C8D6E62004E103E /* ContentView.swift */,
+				63486ED82C8D7412004E103E /* Settings */,
+				63486ED52C8D73A5004E103E /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63486ED52C8D73A5004E103E /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				63B5B09D2C8E7282001BD1B1 /* MainViewController.swift */,
+				63B5B09E2C8E7282001BD1B1 /* MainViewController.xib */,
+				63441D422C8EB2A800D52A9B /* PuertoSalvadorAllendeView.swift */,
+				63441D432C8EB2A800D52A9B /* PuertoSalvadorAllendeView.xib */,
+				63441D462C8EB2B800D52A9B /* IslaAmorView.swift */,
+				63441D472C8EB2B800D52A9B /* IslaAmorView.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		63486ED82C8D7412004E103E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6343E4C52C8EA85C002DC933 /* FirstViewSettings.swift */,
+				6343E4C62C8EA85C002DC933 /* FirstViewSettings.xib */,
+				6343E4C92C8EAA98002DC933 /* SecondViewSettings.swift */,
+				6343E4CA2C8EAA98002DC933 /* SecondViewSettings.xib */,
+				6343E4CD2C8EAAE2002DC933 /* ThreeViewSettings.swift */,
+				6343E4CE2C8EAAE2002DC933 /* ThreeViewSettings.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63486EB82C8D6E62004E103E /* NicaDestinyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63486EC72C8D6E63004E103E /* Build configuration list for PBXNativeTarget "NicaDestinyApp" */;
+			buildPhases = (
+				63486EB52C8D6E62004E103E /* Sources */,
+				63486EB62C8D6E62004E103E /* Frameworks */,
+				63486EB72C8D6E62004E103E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NicaDestinyApp;
+			productName = NicaDestinyApp;
+			productReference = 63486EB92C8D6E62004E103E /* NicaDestinyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63486EB12C8D6E62004E103E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					63486EB82C8D6E62004E103E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 63486EB42C8D6E62004E103E /* Build configuration list for PBXProject "NicaDestinyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63486EB02C8D6E62004E103E;
+			productRefGroup = 63486EBA2C8D6E62004E103E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63486EB82C8D6E62004E103E /* NicaDestinyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63486EB72C8D6E62004E103E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63486ECB2C8D6F22004E103E /* Launch Screen.storyboard in Resources */,
+				63441D452C8EB2A800D52A9B /* PuertoSalvadorAllendeView.xib in Resources */,
+				63486EC42C8D6E63004E103E /* Preview Assets.xcassets in Resources */,
+				6343E4CF2C8EAAE2002DC933 /* ThreeViewSettings.xib in Resources */,
+				6343E4C72C8EA85C002DC933 /* FirstViewSettings.xib in Resources */,
+				63441D492C8EB2B800D52A9B /* IslaAmorView.xib in Resources */,
+				63486EC12C8D6E63004E103E /* Assets.xcassets in Resources */,
+				63B5B09F2C8E7282001BD1B1 /* MainViewController.xib in Resources */,
+				6343E4CB2C8EAA98002DC933 /* SecondViewSettings.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63486EB52C8D6E62004E103E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63441D482C8EB2B800D52A9B /* IslaAmorView.swift in Sources */,
+				63486EBF2C8D6E62004E103E /* ContentView.swift in Sources */,
+				6343E4CC2C8EAA98002DC933 /* SecondViewSettings.swift in Sources */,
+				63B5B0A02C8E7282001BD1B1 /* MainViewController.swift in Sources */,
+				63441D442C8EB2A800D52A9B /* PuertoSalvadorAllendeView.swift in Sources */,
+				63486EBD2C8D6E62004E103E /* NicaDestinyAppApp.swift in Sources */,
+				6343E4D02C8EAAE2002DC933 /* ThreeViewSettings.swift in Sources */,
+				6343E4C82C8EA85C002DC933 /* FirstViewSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63486EC52C8D6E63004E103E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63486EC62C8D6E63004E103E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63486EC82C8D6E63004E103E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NicaDestinyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Geraldine-s.NicaDestinyApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63486EC92C8D6E63004E103E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NicaDestinyApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Geraldine-s.NicaDestinyApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63486EB42C8D6E62004E103E /* Build configuration list for PBXProject "NicaDestinyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63486EC52C8D6E63004E103E /* Debug */,
+				63486EC62C8D6E63004E103E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63486EC72C8D6E63004E103E /* Build configuration list for PBXNativeTarget "NicaDestinyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63486EC82C8D6E63004E103E /* Debug */,
+				63486EC92C8D6E63004E103E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63486EB12C8D6E62004E103E /* Project object */;
+}

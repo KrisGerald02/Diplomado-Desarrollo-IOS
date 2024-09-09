@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "A5528-15-Places-to-visit-in-Managua-for-the-Travelling-Architect-Image-18.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
